@@ -256,7 +256,7 @@ main header nav .right-links .up {
   margin-bottom: 30px;
 }
 .extra {
-  padding: 40px;
+  padding: 60px 0;
   max-width: 1400px;
   margin: 0 auto;
   text-align: center;
@@ -299,4 +299,43 @@ main header nav .right-links .up {
 
 .extra .extra-list .list a:hover {
   text-decoration: none;
+}
+.table {
+  padding: 40px;
+  background-color: #f3f1ed;
+}
+.table .table-col {
+  display: grid;
+  grid-template-columns: 250px 500px 500px;
+  margin-top: 100px;
+  column-gap: 40px;
+}
+.table .border {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.table .table-col .row-text {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.table .table-col .row-text p:nth-child(1) {
+  font-size: 30px;
+  font-weight: 500;
+  margin: 0;
+}
+.table .table-col .row-text p:nth-child(2) {
+  line-height: 26px;
+  max-width: 350px;
+}
+.table .table-col .row-text p span {
+  font-size: 20px;
+}
+.table .table-col .row-content {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.table .table-col .row-content .row-img img {
+  width: 112px;
 }
