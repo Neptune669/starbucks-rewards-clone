@@ -255,3 +255,48 @@ main header nav .right-links .up {
   font-weight: 500;
   margin-bottom: 30px;
 }
+.extra {
+  padding: 40px;
+  max-width: 1400px;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.extra h4 {
+  font-size: 28px;
+  margin-bottom: 5px;
+  font-weight: 600;
+}
+.extra p {
+  max-width: 700px;
+  font-size: 16px;
+  line-height: 24px;
+}
+.extra-list {
+  padding: 30px;
+  /* display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 30px; */
+  display: flex;
+  justify-content: space-evenly;
+  gap: 50px;
+}
+.extra .extra-list .list img {
+  width: 130px;
+}
+.extra .extra-list .list h3 {
+  font-size: 24px;
+  font-weight: 500;
+}
+.extra .extra-list .list p {
+  max-width: 900px;
+}
+.extra .extra-list .list a {
+  color: #468e81;
+}
+
+.extra .extra-list .list a:hover {
+  text-decoration: none;
+}
