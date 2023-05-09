@@ -188,3 +188,70 @@ main header nav .right-links .up {
 .started .card .card-links:hover {
   text-decoration: none;
 }
+.fav {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.fav .head {
+  background-color: #f1f8f5;
+  text-align: center;
+  padding: 15px;
+}
+
+.fav .head h4 {
+  font-size: 2rem;
+  font-weight: 500;
+  margin-bottom: 60px;
+  margin-top: 15px;
+  padding-top: 10px;
+}
+.fav .head ul {
+  display: flex;
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 0;
+
+  justify-content: space-between;
+}
+.fav .head ul li {
+  list-style: none;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.fav .head ul li a {
+  color: #000;
+  text-decoration: none;
+}
+.fav .head span {
+  color: #cba258;
+  margin-left: -5px;
+}
+.fav .head ul li.active {
+  border-bottom: 5px solid #0c784c;
+}
+
+.fav .head ul li a:hover {
+  color: #1e3932;
+}
+.fav .drink {
+  background-color: #d4e9e2;
+  padding: 40px;
+}
+.fav .drink .container {
+  display: flex;
+  max-width: 750px;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.fav .drink .img img {
+  width: 380px;
+}
+.fav .drink .content {
+  margin-left: 30px;
+}
+.fav .drink .content .title {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
