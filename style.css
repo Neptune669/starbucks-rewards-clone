@@ -64,6 +64,9 @@ main header nav .left .logo {
 main header nav .left .logo img {
   max-width: 100px;
 }
+main header nav .burger {
+  display: none;
+}
 main header nav .right-links {
   display: flex;
   align-items: center;
@@ -338,4 +341,82 @@ main header nav .right-links .up {
 }
 .table .table-col .row-content .row-img img {
   width: 112px;
+}
+/* responsive */
+@media screen and (max-width: 420px) {
+  main header {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  main header nav .left-links {
+    display: none;
+  }
+  main header nav .right {
+    display: none;
+  }
+  main header nav .burger {
+    display: block;
+  }
+  main header nav .burger i {
+    font-size: 1.5rem;
+  }
+  .hero {
+    background-image: url(./img/starbucks-mobile.png);
+    background-size: cover;
+
+    background-position: center;
+    height: 600px;
+  }
+  .hero .text {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  .started {
+    max-width: 600px;
+    margin: 0 auto;
+    margin-top: 50px;
+  }
+  .started .head {
+    text-align: center;
+    margin: 80px 0;
+  }
+  .started .head h1 {
+    font-size: 2rem;
+    font-weight: 500;
+  }
+  .started .head p {
+    font-size: 16px;
+  }
+  .started .grid-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin: 0;
+  }
+  .fav .drink .container {
+    display: flex;
+    flex-direction: column;
+    max-width: 750px;
+    margin: 0 auto;
+    align-items: center;
+  }
+
+  .fav .drink .img img {
+    width: 380px;
+  }
+  .extra-list {
+    padding: 30px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 50px;
+  }
+  .table .table-col {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    margin-top: 50px;
+  }
 }
