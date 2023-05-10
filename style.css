@@ -343,7 +343,7 @@ main header nav .right-links .up {
   width: 112px;
 }
 /* responsive */
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 500px) {
   main header {
     max-width: 600px;
     margin: 0 auto;
